@@ -1,315 +1,129 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
-  <!-- ====== BASIC SEO ====== -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Full‑Stack Developer | MERN, Next.js & AI Integrations | Fiverr Expert</title>
-  <meta name="description" content="Full‑stack developer specializing in MERN, Next.js and AI integrations. I ship fast, responsive, SEO‑optimized websites with clean code and measurable results." />
-  <meta name="author" content="Your Name" />
-  <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1" />
-  <link rel="canonical" href="https://www.example.com/" />
-
-  <!-- (Optional) secondary keywords for legacy crawlers (won't render visually; not cloaking) -->
-  <meta name="keywords" content="full stack developer, MERN, Next.js, React, Node.js, Express, MongoDB, TypeScript, Tailwind CSS, SEO, web performance, AI integration, Fiverr developer, portfolio website, landing page, business site" />
-
-  <!-- ====== ICONS & THEME ====== -->
-  <link rel="icon" href="/favicon.ico" sizes="any" />
-  <link rel="icon" href="/icon.svg" type="image/svg+xml" />
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <meta name="theme-color" content="#0f172a" />
-
-  <!-- ====== FONTS (Performance) ====== -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-  <!-- ====== SOCIAL CARDS ====== -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hussain Jawad | SEO Expert | Hackinsecond — On-Page & Content SEO</title>
+  <meta name="description" content="Hire Hussain Jawad (Hackinsecond) — SEO Expert from Pakistan. On-Page SEO, Technical SEO, Content Writing, and Website Optimization to boost visibility." />
+  <link rel="canonical" href="https://codefeee.github.io/Hussain-Jawad/" />
+  <meta name="robots" content="index,follow" />
+  <meta name="keywords" content="Hussain Jawad, hackinsecond, SEO expert Pakistan, website SEO, on-page SEO, technical SEO, SEO content" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Hussain Jawad — SEO Expert (Hackinsecond)" />
+  <meta property="og:description" content="On-Page SEO, Technical SEO and SEO Content services by Hussain Jawad. Get optimized pages & higher visibility." />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Full‑Stack Developer | MERN & AI Integrations" />
-  <meta property="og:description" content="Fast, responsive, SEO‑first websites. MERN, Next.js and AI integrations." />
-  <meta property="og:url" content="https://www.example.com/" />
-  <meta property="og:image" content="https://www.example.com/og-cover.jpg" />
+  <meta property="og:url" content="https://codefeee.github.io/Hussain-Jawad/" />
+  <meta property="og:locale" content="en_US" />
+  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Full‑Stack Developer | MERN & AI Integrations" />
-  <meta name="twitter:description" content="Fast, responsive, SEO‑first websites. MERN, Next.js and AI integrations." />
-  <meta name="twitter:image" content="https://www.example.com/og-cover.jpg" />
-
-  <!-- ====== INTERNATIONALIZATION (edit if you add locales) ====== -->
-  <link rel="alternate" href="https://www.example.com/" hreflang="en" />
-
+  <!-- Performance hints -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <style>
-    :root{
-      --bg:#0f172a;         /* slate-900 */
-      --card:#0b1220;       /* deep slate */
-      --muted:#94a3b8;      /* slate-400 */
-      --text:#e2e8f0;       /* slate-200 */
-      --brand:#6366f1;      /* indigo-500 */
-      --brand2:#22d3ee;     /* cyan-400 */
-      --ring:rgba(99,102,241,.35);
-      --shadow:0 10px 30px rgba(2,6,23,.35);
-      --radius:22px;
-    }
-    *{box-sizing:border-box}
-    html{scroll-behavior:smooth}
-    body{margin:0;font-family:"Poppins",system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial,sans-serif;background:linear-gradient(180deg,#0f172a,#0b1220 35%,#0f172a);color:var(--text);line-height:1.7}
-    .container{max-width:1120px;margin-inline:auto;padding:32px 20px}
-
-    /* Accessibility */
-    .skip{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
-    .skip:focus{left:16px;top:16px;width:auto;height:auto;background:#fff;color:#000;padding:8px 12px;border-radius:10px}
-
-    /* Header / hero */
-    header.hero{position:relative;isolation:isolate;padding:90px 20px 72px;border-bottom-left-radius:32px;border-bottom-right-radius:32px;background:radial-gradient(1200px 600px at 85% -10%,rgba(34,211,238,.25),transparent),radial-gradient(900px 500px at -10% 10%,rgba(99,102,241,.25),transparent)}
-    .hero-inner{max-width:1120px;margin:0 auto;text-align:center}
-    .eyebrow{display:inline-block;font-weight:600;letter-spacing:.08em;text-transform:uppercase;font-size:.8rem;background:rgba(99,102,241,.15);border:1px solid rgba(99,102,241,.35);padding:6px 10px;border-radius:999px;backdrop-filter:blur(6px)}
-    h1{font-size:clamp(2rem,4vw,3rem);margin:14px 0 10px;line-height:1.2}
-    .sub{color:var(--muted);font-size:clamp(1rem,2.2vw,1.15rem)}
-
-    nav.sticky{position:sticky;top:0;z-index:50;background:rgba(2,6,23,.7);backdrop-filter:blur(10px);border-bottom:1px solid rgba(148,163,184,.15)}
-    .navwrap{display:flex;align-items:center;justify-content:space-between;gap:12px;max-width:1120px;margin-inline:auto;padding:12px 20px}
-    .brand{display:flex;align-items:center;gap:10px;font-weight:700}
-    .brand i{width:10px;height:10px;border-radius:50%;background:radial-gradient(circle at 30% 30%,var(--brand2),var(--brand));box-shadow:0 0 0 6px rgba(34,211,238,.08)}
-    .menu{display:flex;gap:16px}
-    .menu a{color:var(--text);text-decoration:none;opacity:.85}
-    .menu a:hover{opacity:1}
-    .cta{display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,var(--brand),var(--brand2));color:#001119;text-decoration:none;padding:10px 16px;border-radius:12px;font-weight:600;box-shadow:var(--shadow)}
-
-    section{padding:56px 0}
-    .card{background:var(--card);border:1px solid rgba(148,163,184,.18);border-radius:var(--radius);box-shadow:var(--shadow)}
-    .grid{display:grid;gap:20px}
-    .grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}
-    .grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}
-
-    .stats{display:flex;flex-wrap:wrap;gap:18px}
-    .stat{flex:1 1 180px;background:linear-gradient(180deg,rgba(99,102,241,.08),rgba(34,211,238,.08));border:1px solid rgba(148,163,184,.18);padding:18px;border-radius:16px;text-align:center}
-    .stat strong{font-size:1.6rem;display:block}
-
-    .service{padding:22px}
-    .service h3{margin:4px 0 8px}
-    .service ul{margin:8px 0 0 18px}
-
-    .portfolio .item{overflow:hidden}
-    .portfolio img{width:100%;height:220px;object-fit:cover;display:block;transition:transform .5s ease}
-    .portfolio a:hover img{transform:scale(1.05)}
-
-    .faq details{background:var(--card);border:1px solid rgba(148,163,184,.18);border-radius:14px;padding:14px 16px}
-    .faq details+details{margin-top:12px}
-    .faq summary{cursor:pointer;font-weight:600}
-    .faq p{color:var(--muted);margin-top:8px}
-
-    footer{border-top:1px solid rgba(148,163,184,.15);padding:36px 20px;color:var(--muted);text-align:center}
-
-    /* Utilities */
-    .muted{color:var(--muted)}
-    .center{text-align:center}
-    .mt-8{margin-top:32px}
-
-    /* Responsive */
-    @media (max-width: 900px){.grid-3{grid-template-columns:repeat(2,minmax(0,1fr))}}
-    @media (max-width: 700px){.grid-2,.grid-3{grid-template-columns:1fr}; .menu{display:none}}
-
-    /* Motion + color scheme */
-    @media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
-    :root{color-scheme:dark}
+    /* Minified-ish styles for speed and SEO-friendly layout */
+    :root{--bg:#fff;--accent:#0a58ca;--muted:#666}
+    *{box-sizing:border-box}html,body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:#111;line-height:1.5}
+    a{color:var(--accent);text-decoration:none}
+    header{background:#071233;color:#fff;padding:28px 16px;text-align:center}
+    .container{max-width:1000px;margin:24px auto;padding:0 16px}
+    h1{font-size:clamp(1.4rem,2.4vw,2.2rem);margin:.4rem 0}
+    h2{font-size:1.1rem;margin:0 0 .6rem;color:#072a5b}
+    .grid{display:grid;gap:16px}
+    .cols{grid-template-columns:1fr 360px}
+    .card{background:#fff;border-radius:10px;padding:18px;box-shadow:0 6px 18px rgba(10,18,50,.06);border:1px solid #eef2ff}
+    .btn{display:inline-block;padding:10px 14px;border-radius:8px;background:var(--accent);color:#fff;font-weight:700}
+    ul{margin:8px 0 0 18px}
+    footer{padding:24px 16px;text-align:center;color:var(--muted);font-size:.94rem;margin-top:40px}
+    @media(max-width:880px){.cols{grid-template-columns:1fr}}
   </style>
-
-  <!-- ====== STRUCTURED DATA (JSON‑LD) | Visible to crawlers (NOT cloaking) ====== -->
+  <!-- Structured data: Person + Service -->
   <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"Person",
-    "name":"Your Name",
-    "jobTitle":"Full Stack Developer",
-    "url":"https://www.example.com/",
-    "email":"mailto:yourname@example.com",
-    "image":"https://www.example.com/portrait.jpg",
-    "sameAs":[
-      "https://www.fiverr.com/yourusername",
-      "https://www.linkedin.com/in/yourusername/",
-      "https://github.com/yourusername"
-    ]
-  }
-  </script>
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"WebSite",
-    "name":"Your Name — Full‑Stack Developer",
-    "url":"https://www.example.com/",
-    "potentialAction":{
-      "@type":"SearchAction",
-      "target":"https://www.example.com/?q={search_term_string}",
-      "query-input":"required name=search_term_string"
-    }
-  }
-  </script>
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"Service",
-    "serviceType":"Full‑Stack Web Development",
-    "provider":{"@type":"Person","name":"Your Name"},
-    "areaServed":"Worldwide",
-    "offers":{"@type":"Offer","availability":"https://schema.org/InStock"}
-  }
-  </script>
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"FAQPage",
-    "mainEntity":[
-      {"@type":"Question","name":"Do you build SEO‑optimized websites?","acceptedAnswer":{"@type":"Answer","text":"Yes—Core Web Vitals, semantic HTML, schema, sitemap/robots and on‑page SEO are standard."}},
-      {"@type":"Question","name":"Which stacks do you use?","acceptedAnswer":{"@type":"Answer","text":"MERN (MongoDB, Express, React/Next.js, Node.js), TypeScript and Tailwind CSS."}}
-    ]
-  }
+  {"@context":"https://schema.org","@type":"Person","name":"Hussain Jawad","alternateName":"hackinsecond","jobTitle":"SEO Expert & Content Strategist","url":"https://codefeee.github.io/Hussain-Jawad/","sameAs":["https://www.fiverr.com/hackinsecondshc","mailto:hushackinseconds@gmail.com"]}
   </script>
 </head>
 <body>
-  <a class="skip" href="#main">Skip to content</a>
-
-  <nav class="sticky" aria-label="Primary">
-    <div class="navwrap">
-      <a class="brand" href="#home" aria-label="Home"><i></i> <span>Your Name</span></a>
-      <div class="menu" role="menubar">
-        <a href="#services" role="menuitem">Services</a>
-        <a href="#work" role="menuitem">Work</a>
-        <a href="#about" role="menuitem">About</a>
-        <a href="#faq" role="menuitem">FAQ</a>
-        <a class="cta" href="#contact" role="menuitem">Hire Me</a>
-      </div>
-    </div>
-  </nav>
-
-  <header id="home" class="hero" role="banner">
-    <div class="hero-inner">
-      <span class="eyebrow">MERN • Next.js • AI Integrations</span>
-      <h1>Full‑Stack Developer for Fast, SEO‑First Websites</h1>
-      <p class="sub">Accessible, responsive and blazing‑fast web experiences that convert visitors into customers.</p>
-      <div class="center mt-8">
-        <a class="cta" href="#contact">Start a Project →</a>
-      </div>
+  <header role="banner">
+    <div class="container">
+      <h1>Hussain Jawad — SEO Expert (Hackinsecond)</h1>
+      <p>On-Page SEO • Technical SEO • SEO Content • Fiverr seller — <a href="mailto:hushackinseconds@gmail.com">hushackinseconds@gmail.com</a></p>
     </div>
   </header>
 
-  <main id="main" class="container" role="main">
-    <!-- ====== Stats / Social Proof (replace with real data) ====== -->
-    <section aria-label="Highlights" class="center">
-      <div class="stats">
-        <div class="stat"><strong>7+ yrs</strong><span class="muted">Experience</span></div>
-        <div class="stat"><strong>120+</strong><span class="muted">Projects Delivered</span></div>
-        <div class="stat"><strong>48–72 hrs</strong><span class="muted">Avg. Turnaround</span></div>
-        <div class="stat"><strong>5★</strong><span class="muted">Client Feedback</span></div>
-      </div>
-    </section>
+  <main class="container" role="main">
+    <section class="grid cols" aria-labelledby="services-title">
+      <div>
+        <article class="card" itemscope itemtype="https://schema.org/Service">
+          <h2 id="services-title">On-Page SEO & Technical SEO Services</h2>
+          <p itemprop="description">I optimize page titles, headings (H1/H2/H3), meta descriptions, image alt text, internal linking and schema markup to improve visibility for targeted keywords like <strong>\"website SEO\"</strong>, <strong>\"Hussain Jawad\"</strong>, and <strong>\"hackinsecond\"</strong>.</p>
 
-    <!-- ====== Services ====== -->
-    <section id="services" aria-labelledby="services-title">
-      <h2 id="services-title" class="center">Services</h2>
-      <div class="grid grid-3 mt-8">
-        <article class="service card" aria-label="Full‑stack web apps">
-          <h3>Full‑Stack Web Apps (MERN)</h3>
-          <p class="muted">Production‑ready apps with secure auth, dashboards and APIs.</p>
+          <h3 style="margin-top:12px">Packages</h3>
           <ul>
-            <li>React/Next.js front‑end</li>
-            <li>Node.js/Express APIs</li>
-            <li>MongoDB/PostgreSQL</li>
+            <li><strong>Basic — PKR 4,457:</strong> On-page SEO + content for <em>1 page</em>. Delivery: 3 days. (5 keywords researched)</li>
+            <li><strong>Standard — PKR 22,282:</strong> 3 pages, keyword research (7), content writing included.</li>
+            <li><strong>Premium — PKR 44,563:</strong> 5+ pages, schema, full optimization + content.</li>
           </ul>
-        </article>
-        <article class="service card" aria-label="AI integrations">
-          <h3>AI Integrations</h3>
-          <p class="muted">Chat, summarization, automation and data pipelines.</p>
-          <ul>
-            <li>OpenAI/Anthropic APIs</li>
-            <li>Embeddings & RAG</li>
-            <li>Process automation</li>
-          </ul>
-        </article>
-        <article class="service card" aria-label="Performance and SEO">
-          <h3>Performance & SEO</h3>
-          <p class="muted">Core Web Vitals, a11y and on‑page SEO best practices.</p>
-          <ul>
-            <li>Semantic HTML & schema</li>
-            <li>Image optimization</li>
-            <li>Page speed tuning</li>
-          </ul>
-        </article>
-      </div>
-    </section>
 
-    <!-- ====== Portfolio (sample thumbnails; replace href/src) ====== -->
-    <section id="work" class="portfolio" aria-labelledby="work-title">
-      <h2 id="work-title" class="center">Selected Work</h2>
-      <div class="grid grid-3 mt-8">
-        <a class="item card" href="#" aria-label="Project One">
-          <img loading="lazy" src="/project-1.jpg" alt="Project One screenshot" width="640" height="420" />
-        </a>
-        <a class="item card" href="#" aria-label="Project Two">
-          <img loading="lazy" src="/project-2.jpg" alt="Project Two screenshot" width="640" height="420" />
-        </a>
-        <a class="item card" href="#" aria-label="Project Three">
-          <img loading="lazy" src="/project-3.jpg" alt="Project Three screenshot" width="640" height="420" />
-        </a>
-      </div>
-    </section>
+          <h3 style="margin-top:12px">What I do (high-impact)</h3>
+          <ul>
+            <li>Title & meta optimization (keyword-first, readable)</li>
+            <li>Heading structure (H1 → H2 → H3) with keywords and semantic HTML</li>
+            <li>Content writing focused on search intent and readability (E-E-A-T friendly)</li>
+            <li>Image alt tags and modern responsive images (lazy loading)</li>
+            <li>Basic JSON-LD schema (Service & Person)</li>
+            <li>Internal linking and URL structure suggestions</li>
+            <li>Speed & Core Web Vitals advice</li>
+          </ul>
 
-    <!-- ====== About ====== -->
-    <section id="about" aria-labelledby="about-title">
-      <h2 id="about-title" class="center">About Me</h2>
-      <div class="grid grid-2 mt-8">
-        <article class="card" style="padding:24px">
-          <p class="muted">I’m a full‑stack developer and AI specialist. I focus on shipping maintainable code, measurable performance and delightful UX.</p>
-          <ul>
-            <li>JavaScript / TypeScript</li>
-            <li>React / Next.js / Node.js</li>
-            <li>Tailwind CSS, a11y, CWV</li>
-          </ul>
+          <p style="margin-top:12px">Tools: Ahrefs, Surfer SEO, Yoast (as needed). Note: No one can guarantee #1 on Google — but I implement best practices that maximize chances to rank for target keywords.</p>
+
+          <p style="margin-top:12px"><a class="btn" href="https://www.fiverr.com/hackinsecondshc" target="_blank" rel="noopener">Order on Fiverr</a></p>
         </article>
-        <article class="card" style="padding:24px">
-          <h3>Core Principles</h3>
+
+        <article class="card" style="margin-top:16px">
+          <h2>SEO Articles & Blog Writing</h2>
+          <p>SEO-optimized content that targets user intent and ranking potential.</p>
           <ul>
-            <li>Performance first</li>
-            <li>Accessibility by default</li>
-            <li>Clean, testable code</li>
+            <li>Basic article: PKR 1,486 — 500 words, plagiarism check</li>
+            <li>Standard: PKR 7,428 — 2×1000 words</li>
+            <li>Premium: PKR 14,855 — long-form, research-backed</li>
           </ul>
+          <p><a class="btn" href="https://www.fiverr.com/hackinsecondshc/write-seo-articles-blogs-and-professional-scripts" target="_blank" rel="noopener">View Content Gig</a></p>
+        </article>
+
+        <article class="card" style="margin-top:16px">
+          <h2>How to get started</h2>
+          <ol>
+            <li>Send website URL + target pages (or ask me to audit).</li>
+            <li>Provide business description and 1–3 target keywords (optional).</li>
+            <li>I deliver on-page changes + content + JSON-LD and a short implementation guide.</li>
+          </ol>
         </article>
       </div>
+
+      <aside class="card" aria-labelledby="about-title">
+        <h2 id="about-title">Contact & Quick Info</h2>
+        <p><strong>Name:</strong> Hussain Jawad (hackinsecond)</p>
+        <p><strong>Location:</strong> Pakistan</p>
+        <p><strong>Email:</strong> <a href="mailto:hushackinseconds@gmail.com">hushackinseconds@gmail.com</a></p>
+        <p><strong>Fiverr:</strong> <a href="https://www.fiverr.com/hackinsecondshc" target="_blank" rel="noopener">hackinsecondshc</a></p>
+        <p><strong>Languages:</strong> English</p>
+        <p style="margin-top:12px"><a class="btn" href="#contact">Contact</a></p>
+      </aside>
     </section>
 
-    <!-- ====== FAQ (visible + JSON‑LD above) ====== -->
-    <section id="faq" class="faq" aria-labelledby="faq-title">
-      <h2 id="faq-title" class="center">FAQ</h2>
-      <div class="mt-8">
-        <details>
-          <summary>Do you provide SEO with development?</summary>
-          <p>Yes. I include semantic HTML, schema markup, clean URLs, sitemap/robots and performance tuning.</p>
-        </details>
-        <details>
-          <summary>Which stacks do you use?</summary>
-          <p>MERN (MongoDB, Express, React/Next.js, Node.js), TypeScript and Tailwind CSS.</p>
-        </details>
-      </div>
-    </section>
-
-    <!-- ====== Contact ====== -->
-    <section id="contact" aria-labelledby="contact-title">
-      <h2 id="contact-title" class="center">Let’s Work Together</h2>
-      <div class="center mt-8">
-        <p class="muted">Email: <a href="mailto:yourname@example.com">yourname@example.com</a> · Fiverr: <a href="https://fiverr.com/yourusername" target="_blank" rel="noopener">fiverr.com/yourusername</a></p>
+    <section id="contact" style="margin-top:18px">
+      <div class="card">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:hushackinseconds@gmail.com">hushackinseconds@gmail.com</a></p>
+        <p>Prefer Fiverr? <a href="https://www.fiverr.com/hackinsecondshc" target="_blank" rel="noopener">Message me on Fiverr</a></p>
       </div>
     </section>
   </main>
 
-  <footer role="contentinfo">
+  <footer>
     <div class="container">
-      <p>© 2025 Your Name — Full‑Stack Developer | AI Integrations</p>
-      <p class="muted">This site uses semantic HTML, accessible components and structured data. No cloaking. What crawlers see is what users get.</p>
+      <p>© 2025 Hussain Jawad · SEO Expert · <a href="https://codefeee.github.io/Hussain-Jawad/">codefeee.github.io/Hussain-Jawad</a></p>
+      <p style="font-size:.9rem;color:#666;margin-top:8px">This site is optimized for SEO basics: semantic HTML, meta tags, schema, responsive design and fast load.</p>
     </div>
   </footer>
-
-  <!-- ====== NOSCRIPT CONTENT (indexable text, still visible if JS disabled) ====== -->
-  <noscript>
-    <p>Full‑stack developer portfolio. MERN, Next.js, TypeScript and AI integrations. Performance‑focused, accessible and SEO‑optimized builds.</p>
-  </noscript>
 </body>
 </html>
