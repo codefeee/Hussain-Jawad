@@ -1,0 +1,14 @@
+{
+"name": "Hussain Jawad SEO Portfolio",
+"short_name": "HJ SEO",
+"start_url": "/",
+"display": "standalone",
+"background_color": "#ffffff",
+"theme_color": "#0073e6",
+"description": "SEO Expert Hussain Jawad portfolio and services website.",
+"icons": [{
+"src": "favicon.ico",
+"sizes": "64x64",
+"type": "image/x-icon"
+}]
+}
